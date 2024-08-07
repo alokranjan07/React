@@ -1,0 +1,45 @@
+ .person{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    gap:35px;
+    margin-top: 200px;
+ }
+ .photo{
+    width:150px;
+    border-radius:100px;
+ }
+ .action{
+    display:flex;
+    align-items:center;
+    font-size: 20px;
+    gap:20px;
+    font-weight: 500;
+    margin-bottom: 50px;
+
+ }
+ .connect{
+    padding:25px 45px;
+    border-radius:50px;
+    background-color:blueviolet;
+    height: 15px;
+    cursor:pointer;
+
+ }
+ .resume{
+    padding:25px 75px;
+    border-radius:35px;
+    border:2px solid black;
+    height:15px;
+    cursor:pointer;
+
+ }
+ .connect:hover{
+    border :2px solid red;
+ }
+ .resume:hover{
+     border-color:chocolate ;
+ }
+
+ 
+ 
